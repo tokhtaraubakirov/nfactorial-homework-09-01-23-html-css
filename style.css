@@ -1,0 +1,188 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 6px;
+}
+
+.row{
+    margin: 7px 0px;
+}
+
+/*-------------ROW-ONE--------------*/
+
+.row__one__block-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 70px;
+}
+
+.row__one__block-one {
+    background-color: red;
+}
+
+.row__one__block-two {
+    background-color: blue;
+}
+
+/*-------------ROW-TWO--------------*/
+
+.row__two__block-container {
+    display: grid;
+    grid-template-columns: 92% 1fr;
+    grid-template-rows: 70px;
+}
+
+.row__two__block-one {
+    background-color: green;
+}
+
+.row__two__block-two {
+    background-color: blue;
+}
+
+/*-------------ROW-THREE--------------*/
+
+.row__three__block-container {
+    display: grid;
+    grid-template-columns: 1fr 84% 1fr;
+    grid-template-rows: 70px;
+}
+
+.row__three__block-one {
+    background-color: red;
+}
+
+.row__three__block-two {
+    background-color: green;
+}
+
+.row__three__block-three {
+    background-color: blue;
+}
+
+/*-------------ROW-FOUR--------------*/
+
+.row__four__block-container {
+    display: grid;
+    grid-template-columns: 92% 1fr;
+    grid-template-rows: 70px;
+}
+
+.row__four__block-one {
+    background-color: red;
+}
+
+.row__four__block-two {
+    background-color: blue;
+}
+
+/*-------------ROW-FIVE--------------*/
+
+.row__five__block-one {
+    display: flex;
+    justify-content: center;
+    background-color: green;
+}
+
+.row__five__block-two {
+    background-color: red;
+    margin: 13px 0px;
+    width: 50px;
+    height: 50px;
+}
+
+/*-------------ROW-SIX--------------*/
+
+.row__six__block-one {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+}
+
+.row__six__block-two {
+    background-color: blue;
+    width: 85px;
+    height: 70px;
+}
+
+/*-------------ROW-SEVEN--------------*/
+
+.row__seven__block-container {
+    display: grid;
+    grid-template-columns: 1fr 90%;
+}
+
+.row__seven__block-one {
+    background-color: red;
+    height: 72px;
+}
+
+.row__seven__block-two {
+    background-color: blue;
+    height: 24px;
+}
+
+.row__seven__block-three {
+    background-color: green;
+    height: 24px;
+}
+
+.row__seven__block-four {
+    background-color: blue;
+    height: 24px;
+}
+
+/*-------------ROW-EIGHT--------------*/
+
+.row__eight__block-container {
+    background-color: green;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 250px;
+}
+
+.row__eight__block-1 {
+    background-color: yellow;
+    min-width: 60px;
+    height: 70px;
+}
+.row__eight__block-2 {
+    background-color: yellow;
+    height: 70px;
+    min-width: 60px;
+}
+.row__eight__block-3 {
+    background-color: yellow;
+    height: 70px;
+    min-width: 60px;
+}
+.row__eight__block-4 {
+    background-color: yellow;
+    height: 70px;
+    min-width: 60px;
+}
+.row__eight__block-5 {
+    background-color: yellow;
+    height: 70px;
+    min-width: 60px;
+}
+
+/*-------------ROW-NINE--------------*/
+
+.row__nine__block-container {
+    background-color: green;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 13px;
+}
+
+.row__nine__block {
+    background-color: yellow;
+    height: 70px;
+}
